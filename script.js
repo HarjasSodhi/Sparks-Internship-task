@@ -1,10 +1,6 @@
 let form = document.querySelector('form');
 let div = document.querySelector('.btn-container');
 
-var sample = document.getElementById("foobar");
-sample.play();
-
-
 let activated = false;
 div.addEventListener('mouseover', () => {
     if (activated) return;
