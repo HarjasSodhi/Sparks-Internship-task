@@ -1,5 +1,11 @@
 let form = document.querySelector('form');
 let div = document.querySelector('.btn-container');
+let img =document.querySelector('img');
+
+img.addEventListener("click",()=>{
+    let audio=new Audio("sound.mp3");
+    audio.play();
+})
 
 let activated = false;
 div.addEventListener('mouseover', () => {
